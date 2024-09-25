@@ -1,1 +1,20 @@
-tvfytfutfuo
+* tạo 1 file-> chuột phải chọn git bash -> truy cập kết nối tới tk github của mình bằng 2 lệnh
+$ git config --global user.name "tên tài khoản"
+$ got config --global user.email + tên email
+
+--> file .git
+
+*mở cmd 
+d:  là để tới ổ đĩa 
+cd + tên file
+
+git clone + link respone
+* để push các file lên github: 3 lệnh
+1. git add + tên file 
+   git add . (để push lên tất cả)
+// git status ( để kiểm tra tình trạng đã add thành công hết chưa)
+2. git commit -m"commit"
+3. git push origin main
+
+* để kéo code trên github về
+git pull
